@@ -728,6 +728,17 @@
       "type": "meetup"
     }
   ],
+  "August": [
+    {
+      "date": "August 30th, 2019",
+      "startDate": "2019-08-30",
+      "endDate": "2019-08-30",
+      "name": "JSFoo: VueDay",
+      "eventLink": "https://hasgeek.com/jsfoo/2019-vueday/",
+      "type": "conference",
+      "location": "Bangalore, India"
+    }
+  ],
   "October": [
     {
       "date": "October 3rd - 4th, 2019",
