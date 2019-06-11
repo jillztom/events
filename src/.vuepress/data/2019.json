@@ -728,14 +728,26 @@
       "type": "meetup"
     }
   ],
+  "October": [
+    {
+      "date": "October 3rd - 4th, 2019",
+      "startDate": "2019-10-3",
+      "endDate": "2019-10-4",
+      "name": "Vue London",
+      "eventLink": "https://vuejs.london",
+      "type": "conference",
+      "location": "London, United Kingdom"
+    }
+  ],
   "November": [
     {
-      "date": "11-12th",
+      "date": "November 11th - 12th, 2019",
       "startDate": "2019-11-11",
       "endDate": "2019-11-12",
       "name": "VueConf Toronto",
       "eventLink": "https://vuetoronto.com/",
-      "type": "conference"
+      "type": "conference",
+      "location": "Toronto, Canada"
     }
   ]
 }
