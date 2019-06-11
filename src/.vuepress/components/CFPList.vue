@@ -32,16 +32,7 @@ export default {
 		unexpiredEvents() {
 			return this.allEvents.filter(a => didNotExpire(a.cfp.deadline))
 		}
-	},
-
-	methods: {
-		showEvent(event) {
-			const checkDate = isPast(event.endDate) === this.past;
-			const checkType = (this.type) ? this.type === event.type : true;
-
-			return checkDate && checkType;
-		}
-	},
+	}
 
 }
 </script>
