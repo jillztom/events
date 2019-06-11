@@ -726,6 +726,26 @@
       "name": "May the Vue be with you - New beginning 🎉🎉",
       "eventLink": "https://www.meetup.com/vue-js/events/259354986/",
       "type": "meetup"
+    },
+    {
+      "date": "May 31st, 2019",
+      "startDate": "2019-05-31",
+      "endDate": "2019-05-31",
+      "name": "VueDay Alicante 2019",
+      "eventLink": "http://vueday.org",
+      "type": "conference",
+      "location": "Alicante, Spain"
+    }
+  ],
+  "June": [
+    {
+      "date": "June 8th, 2019",
+      "startDate": "2019-06-08",
+      "endDate": "2019-06-08",
+      "name": "VueConf China",
+      "eventLink": "https://vue.w3ctech.com/",
+      "type": "conference",
+      "location": "Shanghai, China"
     }
   ],
   "August": [
