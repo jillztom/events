@@ -3,3 +3,7 @@ export const isPast = (date) => {
 
 	return new Date(date) < today;
 }
+
+export const didNotExpire = (date) => {
+	return new Date(date) > new Date()
+}

@@ -3,7 +3,7 @@
 		<slot/>
 		<div class="cfp-list__list">
 			<CFPItem
-				v-for="(event, index) in allEvents"
+				v-for="(event, index) in unexpiredEvents"
 				class="cfp-list__item"
 				:key="index"
 				:event="event"
@@ -15,7 +15,7 @@
 <script>
 import cfpTimeline from '../data/2019-cfps.json';
 import CFPItem from './CFPItem';
-import { isPast } from '../utils';
+import { isPast, didNotExpire } from '../utils';
 
 export default {
 	components: {
@@ -25,6 +25,12 @@ export default {
 	data() {
 		return {
 			allEvents: cfpTimeline.active
+		}
+	},
+
+	computed: {
+		unexpiredEvents() {
+			return this.allEvents.filter(a => didNotExpire(a.cfp.deadline))
 		}
 	},
 
